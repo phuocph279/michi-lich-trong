@@ -1,6 +1,6 @@
 // Lưu sẵn khung app để mở nhanh, kể cả khi mạng yếu.
 // Dữ liệu lịch KHÔNG lưu ở đây (app tự lưu bản gần nhất), nên lịch luôn lấy mới khi có mạng.
-var BAN = 'michi-app-v1';
+var BAN = 'michi-app-v2';
 var KHUNG = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
 
 self.addEventListener('install', function (e) {
